@@ -40,7 +40,7 @@ def score_comment(comment):
         text = text + " " + classes[i] + ": " + str(results[i] > 0.5) + '\n'
     return text
 
-
+#test whatever comment you want here:
 print(score_comment('I hate you'))
 interface = gr.Interface(fn=score_comment, inputs="text",outputs='text')
 interface.launch(share=True)
