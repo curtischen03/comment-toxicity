@@ -7,7 +7,7 @@ https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challeng
 Packages used:\
 tensorflow\
 numpy\
-pandas\
+pandas
 
 Steps to replicate: 
 1. Download the Kaggle dataset in the link and extract the csv file.
